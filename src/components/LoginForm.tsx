@@ -53,8 +53,10 @@ const LoginForm = () => {
               </a>
               <p>
                 {" "}
-                <span className="text-blue-500 hover:text-[#3b82f6]">
-                  Don&apos;t have an account? Sign up!
+                <span className="text-blue-500">
+                  <a href="#" className="hover:underline">
+                    Don&apos;t have an account? Sign up!
+                  </a>
                 </span>
               </p>
             </div>
